@@ -1,0 +1,25 @@
+{
+    "name": "brezgalov/firebase-client",
+    "description": "Firebase client for sending messages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "brezgalov/api-wrapper": "^1.0.7",
+        "brezgalov/i-point": "^1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\FirebaseClient\\": "src/",
+            "Brezgalov\\FirebaseClient\\ResourceDecorator\\": "src/decorators/"
+        }
+    }
+}
